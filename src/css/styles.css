@@ -8,7 +8,7 @@ body {
 
 body::before{
     content: "";
-    background-image: url(../imagens/bg-desktop.jpg);
+    background-image: url(../img/bg-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,6 +22,15 @@ body::before{
 .cabecalho {
 	display: flex;
 	justify-content: center;
+}
+
+.cabecalho .logo {
+	position: relative;
+	top: 5em;
+}
+
+.cabecalho .logo img {
+	width: 100%;
 }
 
 .selecao-de-personagens {
